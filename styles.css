@@ -1,0 +1,77 @@
+body{
+    background-color: #eceada;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Neonderthaw', cursive;
+    font-weight:bolder;
+    color: #c4a092;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: #c4a092 5px 5px 15px;
+}
+.calcy{
+    background-color:#c4a092;
+    width: 528.3px;
+    height: 680px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:35%;
+    top:40px;
+}
+
+.textf{
+    background-color: #eceada;
+    display: flex;
+    justify-content:center; 
+    width: 511.4px;
+    height: 63.8px;
+    position: relative;
+    left:8px;
+    top:50px;
+    border-radius: 40px;
+    color: #c4a092;
+    border-color: #c4a092;
+    text-align: center;
+    font-size: 50px;
+}
+::placeholder{
+    color:#c4a092;
+    opacity: 1;
+}
+button{
+    width: 86.7px;
+    height: 85.6px;
+    font-size: 22px;
+    background-color: #eceada;
+    color: #c4a092;
+    border-radius: 40px;
+    border-color:#c4a092;
+    margin: 12px;
+}
+.rone{
+    display: flex;
+}
+.rtwo{
+    display: flex;
+}
+.rthree{
+    display: flex;
+}
+.rfour{
+    display: flex;
+}
+.rfive{
+    display: flex;
+}
+.butto{
+    position: relative;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

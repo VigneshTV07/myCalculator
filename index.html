@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Neonderthaw&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading"><h1>CALCULATOR</h1></div>
+    <div class="calcy">
+        <div class="textview"><input type="text" placeholder="0" class="textf"></div>
+        <div class="butto">
+            <div class="rone">
+                <div class="butt"><button class="ac" onclick="Clear()">AC</button></div>
+                <div class="butt"><button class="del" onclick="del()">DEL</button></div>
+                <div class="butt"><button class="modulo"onclick="addn('%')">%</button></div>
+                <div class="butt"><button class="devide" onclick="addn('/')">/</button></div>
+            </div>
+            
+            <div class="rtwo">
+                <div class="butt"><button class="seven" onclick="addn('7')">7</button></div>
+                <div class="butt"><button class="eight" onclick="addn('8')">8</button></div>
+                <div class="butt"><button class="nine" onclick="addn('9')">9</button></div>
+                <div class="butt"><button class="minus" onclick="addn('-')">-</button></div>
+            </div>
+
+            <div class="rthree">
+                <div class="butt"><button class="four" onclick="addn('4')">4</button></div>
+                <div class="butt"><button class="five" onclick="addn('5')">5</button></div>
+                <div class="butt"><button class="six" onclick="addn('6')">6</button></div>
+                <div class="butt"><button class="add"  onclick="addn('+')">+</button></div>
+            </div>
+
+            <div class="rfour">
+                <div class="butt"><button class="one" onclick="addn('1')">1</button></div>
+                <div class="butt"><button class="two" onclick="addn('2')">2</button></div>
+                <div class="butt"><button class="three" onclick="addn('3')">3</button></div>
+                <div class="butt"><button class="multiply" onclick="addn('*')">*</button></div>
+            </div>
+            <div class="rfive">
+                <div class="butt"><button class="dot" onclick="addn('.')">.</button></div>
+                <div class="butt"><button class="zero" onclick="addn('0')">0</button></div>
+                <div class="butt"><button class="equalto" onclick="calculate()">=</button></div>
+                
+            </div>
+            
+            
+        
+        </div>
+        
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
